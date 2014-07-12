@@ -1,0 +1,26 @@
+<idea-plugin version="2">
+    <name>HttpMan</name>
+    <version>1.0</version>
+    <vendor email="nmartin867@gmail.com" url="http://www.buggylist.com">Nick Martin</vendor>
+
+    <description>Plugin to create HTTP requests.</description>
+
+    <application-components>
+        <!-- Add your application components here -->
+    </application-components>
+
+    <project-components>
+        <!-- Add your project components here -->
+    </project-components>
+
+    <actions>
+
+    </actions>
+    <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <toolWindow id="HttpMan"   secondary="true" icon="/assets/Beavis.png" anchor="right" factoryClass="main.HttpManWindowFactory"   >
+
+    </toolWindow>
+    </extensions>
+
+</idea-plugin>
